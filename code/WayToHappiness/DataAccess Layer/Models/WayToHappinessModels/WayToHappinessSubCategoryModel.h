@@ -1,0 +1,17 @@
+//
+//  SubMainCategoryModel.h
+//  WayToHappiness
+//
+//  Created by Mohamed Abd El-latef on 2/22/14.
+//  Copyright (c) 2014 Mohamed Abd El-latef. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "WayToHappinessPageModel.h"
+#import "AbstractSubCaetgoryModel.h"
+
+@interface WayToHappinessSubCategoryModel : AbstractSubCaetgoryModel
+@property (nonatomic, strong) NSMutableArray *Pages;
+
+- (void) addPagesObject:(WayToHappinessPageModel *)page;
+@end
